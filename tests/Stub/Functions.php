@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Stand-in for Gull\Framework\Functions and TiMMiT\Mosquito\Functions.
+ *
+ * The rules match the short class name, so the stub only has to be called Functions.
+ */
+
+declare(strict_types=1);
+
+namespace Timmit\Phpstan\Rules\Tests\Stub;
+
+class Functions
+{
+    public static function isPopulatedString(mixed $value): bool
+    {
+        return false;
+    }
+
+    public static function isPopulatedArray(mixed $value): bool
+    {
+        return false;
+    }
+
+    public static function createDateTimeFromFormat(string $format, string $value): \DateTime
+    {
+        return new \DateTime();
+    }
+}

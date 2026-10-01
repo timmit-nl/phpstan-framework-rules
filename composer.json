@@ -1,0 +1,34 @@
+{
+    "name": "timmit/phpstan-framework-rules",
+    "description": "PHPStan rules shared by Gull and Mosquito applications.",
+    "type": "phpstan-extension",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "phpstan/phpstan": "^2.0",
+        "phpstan/phpstan-strict-rules": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Timmit\\Phpstan\\Rules\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Timmit\\Phpstan\\Rules\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "rules.neon"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

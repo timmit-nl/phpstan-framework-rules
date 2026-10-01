@@ -1,0 +1,68 @@
+includes:
+	- ../../phpstan/phpstan-strict-rules/rules.neon
+
+services:
+	-
+		class: Timmit\Phpstan\Rules\NoDirectSaveOnGroupsRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoRawSqlRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoGetBaseFieldOfJugglingRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\YodaComparisonRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoCountOnAItemBaseRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\DateTimeFormatIntComparisonRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoDateTimeModifyRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoLooseDateTimeConstructorRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoLooseDateFunctionsRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoIssetWithIsPopulatedArrayRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoEmptyCoalesceStringComparisonRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoEmptyStringInequalityRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoEmptyStringResetAfterIsPopulatedStringRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoShorthandRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoClosureRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoImmediateCallOnNewRule
+		tags:
+			- phpstan.rules.rule
