@@ -1,6 +1,6 @@
 {
     "name": "timmit/phpstan-framework-rules",
-    "description": "PHPStan rules shared by Gull and Mosquito applications.",
+    "description": "PHPStan rules shared by aItem applications.",
     "type": "phpstan-extension",
     "license": "proprietary",
     "require": {
