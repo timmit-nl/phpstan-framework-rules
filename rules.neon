@@ -66,3 +66,7 @@ services:
 		class: Timmit\Phpstan\Rules\NoImmediateCallOnNewRule
 		tags:
 			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\NoAItemInSignatureRule
+		tags:
+			- phpstan.rules.rule
