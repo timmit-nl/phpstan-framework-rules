@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace Timmit\Phpstan\Rules\Tests\Fixture;
+namespace TiMMiT\PHPStan\Rules\Tests\Fixture;
 
 /**
  * Exercises hand-written content checks next to type checks that must stay.

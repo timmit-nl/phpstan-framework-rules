@@ -6,9 +6,9 @@
 
 declare(strict_types=1);
 
-namespace Timmit\Phpstan\Rules\Tests\Fixture;
+namespace TiMMiT\PHPStan\Rules\Tests\Fixture;
 
-use Timmit\Phpstan\Rules\Tests\Stub\Functions;
+use TiMMiT\PHPStan\Rules\Tests\Stub\Functions;
 
 /**
  * Exercises !== comparisons against ''.

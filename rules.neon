@@ -3,74 +3,74 @@ includes:
 
 services:
 	-
-		class: Timmit\Phpstan\Rules\NoDirectSaveOnGroupsRule
+		class: TiMMiT\PHPStan\Rules\NoDirectSaveOnGroupsRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoRawSqlRule
+		class: TiMMiT\PHPStan\Rules\NoRawSqlRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoGetBaseFieldOfJugglingRule
+		class: TiMMiT\PHPStan\Rules\NoGetBaseFieldOfJugglingRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\YodaComparisonRule
+		class: TiMMiT\PHPStan\Rules\YodaComparisonRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoCountOnAItemBaseRule
+		class: TiMMiT\PHPStan\Rules\NoCountOnAItemBaseRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\DateTimeFormatIntComparisonRule
+		class: TiMMiT\PHPStan\Rules\DateTimeFormatIntComparisonRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoDateTimeModifyRule
+		class: TiMMiT\PHPStan\Rules\NoDateTimeModifyRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoLooseDateTimeConstructorRule
+		class: TiMMiT\PHPStan\Rules\NoLooseDateTimeConstructorRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoLooseDateFunctionsRule
+		class: TiMMiT\PHPStan\Rules\NoLooseDateFunctionsRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoIssetWithIsPopulatedArrayRule
+		class: TiMMiT\PHPStan\Rules\NoIssetWithIsPopulatedArrayRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoEmptyCoalesceStringComparisonRule
+		class: TiMMiT\PHPStan\Rules\NoEmptyCoalesceStringComparisonRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoEmptyStringInequalityRule
+		class: TiMMiT\PHPStan\Rules\NoEmptyStringInequalityRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoEmptyStringResetAfterIsPopulatedStringRule
+		class: TiMMiT\PHPStan\Rules\NoEmptyStringResetAfterIsPopulatedStringRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoShorthandRule
+		class: TiMMiT\PHPStan\Rules\NoShorthandRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoClosureRule
+		class: TiMMiT\PHPStan\Rules\NoClosureRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoImmediateCallOnNewRule
+		class: TiMMiT\PHPStan\Rules\NoImmediateCallOnNewRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\NoAItemInSignatureRule
+		class: TiMMiT\PHPStan\Rules\NoAItemInSignatureRule
 		tags:
 			- phpstan.rules.rule
 	-
-		class: Timmit\Phpstan\Rules\PreferIsPopulatedRule
+		class: TiMMiT\PHPStan\Rules\PreferIsPopulatedRule
 		tags:
 			- phpstan.rules.rule

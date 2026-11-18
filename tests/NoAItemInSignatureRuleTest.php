@@ -6,11 +6,11 @@
 
 declare(strict_types=1);
 
-namespace Timmit\Phpstan\Rules\Tests;
+namespace TiMMiT\PHPStan\Rules\Tests;
 
 use PHPStan\Rules\Rule;
 use PHPStan\Testing\RuleTestCase;
-use Timmit\Phpstan\Rules\NoAItemInSignatureRule;
+use TiMMiT\PHPStan\Rules\NoAItemInSignatureRule;
 
 /**
  * PHPUnit tests for NoAItemInSignatureRule.php
