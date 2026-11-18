@@ -70,3 +70,7 @@ services:
 		class: Timmit\Phpstan\Rules\NoAItemInSignatureRule
 		tags:
 			- phpstan.rules.rule
+	-
+		class: Timmit\Phpstan\Rules\PreferIsPopulatedRule
+		tags:
+			- phpstan.rules.rule

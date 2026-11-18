@@ -14,12 +14,12 @@ class Functions
 {
     public static function isPopulatedString(mixed $value): bool
     {
-        return false;
+        return is_string($value) && '' !== $value;
     }
 
     public static function isPopulatedArray(mixed $value): bool
     {
-        return false;
+        return is_array($value) && 0 < count($value);
     }
 
     public static function createDateTimeFromFormat(string $format, string $value): \DateTime
