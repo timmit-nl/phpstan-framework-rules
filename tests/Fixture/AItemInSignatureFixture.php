@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Timmit\Phpstan\Rules\Tests\Fixture;
+namespace TiMMiT\PHPStan\Rules\Tests\Fixture;
 
-use Timmit\Phpstan\Rules\Tests\Stub\aItem;
-use Timmit\Phpstan\Rules\Tests\Stub\Client;
-use Timmit\Phpstan\Rules\Tests\Stub\Declaratie;
+use TiMMiT\PHPStan\Rules\Tests\Stub\aItem;
+use TiMMiT\PHPStan\Rules\Tests\Stub\Client;
+use TiMMiT\PHPStan\Rules\Tests\Stub\Declaratie;
 
 class AItemInSignatureFixture
 {

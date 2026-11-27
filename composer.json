@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Timmit\\Phpstan\\Rules\\": "src/"
+            "TiMMiT\\PHPStan\\Rules\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Timmit\\Phpstan\\Rules\\Tests\\": "tests/"
+            "TiMMiT\\PHPStan\\Rules\\Tests\\": "tests/"
         }
     },
     "extra": {

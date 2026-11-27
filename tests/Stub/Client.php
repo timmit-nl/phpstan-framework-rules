@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace Timmit\Phpstan\Rules\Tests\Stub;
+namespace TiMMiT\PHPStan\Rules\Tests\Stub;
 
 class Client
 {

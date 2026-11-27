@@ -12,7 +12,7 @@
 
 declare(strict_types=1);
 
-namespace Timmit\Phpstan\Rules;
+namespace TiMMiT\PHPStan\Rules;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr;

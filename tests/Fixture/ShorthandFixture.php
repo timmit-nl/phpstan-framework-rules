@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace Timmit\Phpstan\Rules\Tests\Fixture;
+namespace TiMMiT\PHPStan\Rules\Tests\Fixture;
 
 /**
  * Query stand-in so nullsafe calls type-check without adding unrelated errors.

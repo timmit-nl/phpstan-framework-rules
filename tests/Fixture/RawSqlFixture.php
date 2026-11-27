@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Timmit\Phpstan\Rules\Tests\Fixture;
+namespace TiMMiT\PHPStan\Rules\Tests\Fixture;
 
 /**
  * Exercises raw SQL detection, including a keyword split across fragments.
